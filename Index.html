@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="Index.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700|Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <header>
+    <div class="header-container">
+      <div class="contact-info">
+        <span><i class="fas fa-map-marker-alt"></i> Brooklyn, NY 10036, United States</span>
+        <span><i class="fas fa-phone-alt"></i> +1-123-456-7890</span>
+        <span><i class="fas fa-envelope"></i> info@probootstrap.com</span>
+      </div>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fas fa-search"></i></a>
+      </div>
+    </div>
+    </div>
+  </header>
+
+  <hr>
+
+  <navbar class="d-flex justify-content-center py-0 navbar">
+    <div class="col-md-4 mb-2 mb-md-0 logo">
+      <a href="#" class="d-inline-flex link-body-emphasis text-decoration-none">
+        <div class="logo-Imp">
+          <img src="Images/Imperion_logo.png" alt="Imperion-logo">
+        </div>
+      </a>
+    </div>
+
+    <div class="hamburger" onclick="toggleMenu()">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+
+
+    <ul class="nav nav-pills my-ul" id="navbarNav">
+      <li class="nav-item"><a href="#" class="nav-link" aria-current="page">Home</a></li>
+      <li class="nav-item dropdown"><a href="#" class="nav-link dropbtn">Service</a>
+        <div class="dropdown-content vapt-services">
+          <div class="dropdown-parts">
+            <div class="dropdown-section services">
+              <ul>
+                <li
+                  data-image="https://media.istockphoto.com/id/1180225151/photo/working-on-finding-you-a-solution.webp?a=1&b=1&s=612x612&w=0&k=20&c=m6iilN70nuH3PLBfWym4SkIlQraz6vW3mvqfa1iWwaw=">
+                  <i class="fas fa-globe"></i> <a href="javascript:void(0)" class="slide-link" data-target="1">Web
+                    Application Security Testing</a>
+                </li>
+                <li
+                  data-image="https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                  <i class="fas fa-mobile-alt"></i> <a href="javascript:void(0)" class="slide-link"
+                    data-target="2">Mobile Application Security Testing</a>
+                </li>
+                <li
+                  data-image="https://media.istockphoto.com/id/1358091848/photo/corporate-data-management-system-and-document-management-system-with-employee-privacy.webp?a=1&b=1&s=612x612&w=0&k=20&c=EV4gdTV8HIXTqlq_VFBnK-XLS3oJYwplo4XRE681r84=">
+                  <i class="fas fa-network-wired"></i> <a href="javascript:void(0)" class="slide-link"
+                    data-target="3">Network penetrating testing
+                </li>
+                <li
+                  data-image="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dGVjaCUyMGJ1c2luZXNzfGVufDB8fDB8fHww">
+                  <i class="fas fa-cloud"></i><a href="javascript:void(0)" class="slide-link" data-target="4">Cloud
+                    Penetration Testing </a>
+                </li>
+                <li
+                  data-image="https://media.istockphoto.com/id/1306526412/photo/men-working-in-laptop-at-office.webp?a=1&b=1&s=612x612&w=0&k=20&c=51q3PNoucId-t3_n-xfnJy0k-MuAAelkLJ4T-34EWMA=">
+                  <i class="fas fa-microchip"></i> <a href="javascript:void(0)" class="slide-link" data-target="5"> IoT
+                    Security Testing </a>
+                </li>
+                <li
+                  data-image="https://plus.unsplash.com/premium_photo-1661416307260-5013ab7adc3f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y3liZXIlMjB0ZXN0aW5nJTIwY29tcGFueXxlbnwwfHwwfHx8MA%3D%3D">
+                  <i class="fas fa-code"></i> <a href="javascript:void(0)" class="slide-link" data-target="6"> Secure
+                    Code Review</a>
+                </li>
+                <li
+                  data-image="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                  <i class="fas fa-stethoscope"></i> <a href="javascript:void(0)" class="slide-link" data-target="7">
+                    Medical Device Security</a>
+                  Testing
+                </li>
+                <li
+                  data-image="https://media.istockphoto.com/id/1081869356/photo/taking-on-the-late-shift-with-true-dedication.webp?a=1&b=1&s=612x612&w=0&k=20&c=2fB4km8-W3elF6qr9pUhV8nDwARZLLiWorjnjE5oq-Y=">
+                  <i class="fas fa-exclamation-triangle"></i> <a href="javascript:void(0)" class="slide-link"
+                    data-target="8">Threat Modeling </a>
+                </li>
+                <li
+                  data-image="https://media.istockphoto.com/id/1483272796/photo/seminar-coding-talking.webp?a=1&b=1&s=612x612&w=0&k=20&c=8gVdW4mkv6YAwNla6MfnYvTeNYd1W93Z130l7NjM-iA=">
+                  <i class="fas fa-search"></i> <a href="javascript:void(0)" class="slide-link" data-target="9"> Root
+                    Cause Analysis </a>
+                </li>
+              </ul>
+            </div>
+            <div class="dropdown-image">
+              <img
+                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dGVjaCUyMGJ1c2luZXNzfGVufDB8fDB8fHww"
+                alt="Security Testing Image">
+              <p>Vulnerability Assessment and Penetration Testing (VAPT) is the security service focused on discovering
+                flaws in network, server, and system infrastructure.</p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item menu-item"><a href="#" class="nav-link">Compliance</a>
+        <ul class="submenu">
+          <li><a href="#"><i class="fas fa-check-circle"></i> Standard Compliance</a></li>
+          <li><a href="#"><i class="fas fa-certificate"></i> ISO/IEC 27701 Certification</a></li>
+          <li><a href="#"><i class="fas fa-balance-scale"></i> Regulatory Compliance</a></li>
+          <li><a href="#"><i class="fas fa-gavel"></i> DPDP Act 2023</a></li>
+          <li><a href="#"><i class="fas fa-shield-alt"></i> ISO/IEC 27001 Compliance</a></li>
+          <li><a href="#"><i class="fas fa-lock"></i> ISO 27018 Certification</a></li>
+          <li><a href="#"><i class="fas fa-file-alt"></i> IS Audit (RBI)</a></li>
+          <li><a href="#"><i class="fas fa-clipboard-check"></i> CICRA</a></li>
+          <li><a href="#"><i class="fas fa-user-shield"></i> SOC 2 Compliance</a></li>
+          <li><a href="#"><i class="fas fa-clipboard-list"></i> IRDAI Compliance Audit</a></li>
+          <li><a href="#"><i class="fas fa-certificate"></i> ISO 27017 Certification</a></li>
+          <li><a href="#"><i class="fas fa-cogs"></i> IT General Controls</a></li>
+          <li><a href="#"><i class="fas fa-user-lock"></i> GDPR Compliance</a></li>
+          <li><a href="#"><i class="fas fa-chart-line"></i> SEBI Compliance Audit</a></li>
+          <li><a href="#"><i class="fas fa-exclamation-triangle"></i> Cyber Crisis Management Plan</a></li>
+          <li><a href="#"><i class="fas fa-file-contract"></i> DLA Audit</a></li>
+          <li><a href="#"><i class="fas fa-user-md"></i> HIPAA Compliance</a></li>
+          <li><a href="#"><i class="fas fa-shield-virus"></i> CERT-In Security Audit</a></li>
+          <li><a href="#"><i class="fas fa-project-diagram"></i> SDLC Gap Analysis</a></li>
+          <li><a href="#"><i class="fas fa-bullhorn"></i> Cyber Jagrookta Diwas</a></li>
+          <li><a href="#"><i class="fas fa-credit-card"></i> PCI DSS Compliance</a></li>
+          <li><a href="#"><i class="fas fa-file-alt"></i> SAR Compliance Audit</a></li>
+          <li><a href="#"><i class="fas fa-network-wired"></i> NIST</a></li>
+          <li><a href="#"><i class="fas fa-network-wired"></i> NIST CSF 2.0</a></li>
+          <li><a href="#"><i class="fas fa-lightbulb"></i> Imperial for startups</a></li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown-three"><a href="#" class="nav-link dropbtn-three">Industry</a>
+        <div class="dropdown-content-three vapt-services-three">
+          <div class="dropdown-parts-three">
+            <div class="dropdown-section-three services-three">
+              <ul>
+                <li
+                  data-image="https://www.shutterstock.com/image-photo/corporate-executive-initializing-ai-aided-600nw-1195011697.jpg"
+                  style="font-weight: bold;">
+                  <i class="fas fa-search"></i> Industry Overview
+                </li>
+                <li
+                  data-image="https://media.istockphoto.com/id/1250581414/photo/blue-double-exposure-of-money-coins-stacking-with-bar-graph-for-financial-and-investment.jpg?s=612x612&w=0&k=20&c=tjDzpMnVSMO2RGzt0GNwL7ccmkJytRaKsco4HzB1X5k=">
+                  <i class="fa-solid fa-money-bill"></i> Financial Service
+                </li>
+                <li
+                  data-image="https://retinalscreenings.com/wp-content/uploads/2022/09/benefits-of-tech-in-healthcare-scaled.jpg">
+                  <i class="fa-solid fa-heart-pulse"></i> Health Tech Industry
+                </li>
+                <li
+                  data-image="https://www.shutterstock.com/image-photo/psd2-payment-services-directive-open-600nw-2492301613.jpg">
+                  <i class="fa-solid fa-credit-card"></i> Payment Service
+                </li>
+                <li
+                  data-image="https://media.istockphoto.com/id/968943284/photo/weve-seen-great-progress-in-this-sector.jpg?s=612x612&w=0&k=20&c=eDCzQiIlfjXRdWYxMqdNNLVSTtkRw0eWx3Iei-0yHQA=">
+                  <i class="fa-solid fa-bell"></i> Education Sector
+                </li>
+                <li
+                  data-image="https://media.istockphoto.com/id/637372676/photo/internet-shopping-and-e-commerce-package-delivery-concept.jpg?s=612x612&w=0&k=20&c=Vc4k3vuPSY6BHVN865giYGgghvz3i3WDTgaLWFMjEd0=">
+                  <i class="fa-solid fa-code-compare"></i> E-Commerce
+                </li>
+              </ul>
+            </div>
+            <div class="dropdown-image-three">
+              <img
+                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dGVjaCUyMGJ1c2luZXNzfGVufDB8fDB8fHww"
+                alt="Security Testing Image">
+              <p>Vulnerability Assessment and Penetration Testing (VAPT) is the security service focused on discovering
+                flaws in network, server, and system infrastructure.</p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item"><a href="Work-with-us.html" class="nav-link"> Work with Us
+      <li class="nav-item"><a href="Contact.html" class="nav-link">Contact Us</a></li>
+      </a></li>
+      <div class="col-md-3 text-end">
+    </ul>
+   
+
+    </div>
+  </navbar>
+
+  <section class="slider">
+    <div class="slides">
+      <div class="slide"
+        style="background-image: url('https://img.freepik.com/free-photo/observation-urban-building-business-steel_1127-2397.jpg?t=st=1731049352~exp=1731052952~hmac=d2c131e0f6cd5ebbb0d13962b0d19fd3db577d54ef94bef69e806c63e4fb7fae&w=996 ');">
+        <div class="content">
+          <h3 class="h3" style="font-family: 'Courier New', Courier, monospace; color:rgb(219, 219, 219) ;">Imperial
+            Shield Cyber Defense
+          </h3>
+          <h1>Guarding the Digital Empire With Unmatched Resilience.</h1>
+          <div class="buttons">
+            <button class="primary-btn">Join Us</button>
+            <button class="secondary-btn">Contact Us</button>
+          </div>
+        </div>
+      </div>
+      <div class="slide"
+        style="background-image: url('https://img.freepik.com/free-photo/skyscraper_1112-1077.jpg?t=st=1731049584~exp=1731053184~hmac=41061fe15c438851f016815d105733525f71fe8193464aa65802e46c4f2c6a52&w=1060 ');">
+        <div class="content">
+          <h1>Empowering your enterprise with fortress-grade security.</h1>
+        </div>
+      </div>
+      <div class="slide"
+        style="background-image: url('https://dacaviation.net/wp-content/uploads/2024/05/top-eDAC-E-Documentation-Software.jpg.webp');">
+        <div class="content">
+          <h1>Transforming digital vulnerability into fortified resilience</h1>
+        </div>
+      </div>
+    </div>
+    <button class="arrow left-arrow" onclick="moveSlide(-1)">&#10094;</button>
+    <button class="arrow right-arrow" onclick="moveSlide(1)">&#10095;</button>
+  </section>
+
+
+  <section class="card-container secs">
+    <div class="card card-left">
+      <h2>What is VAPT?</h2>
+      <p>
+        VAPT stands for Vulnerability Assessment and Penetration Testing. Vulnerability Assessment examines digital
+        assets for weaknesses and identifies security vulnerabilities. A method for identifying security holes in
+        software or a computer network is a vulnerability assessment and penetration testing (VAPT Testing). Penetration
+        testing exploits system flaws and alerts companies.</p>
+      <button class="card-btn">Learn more</button>
+    </div>
+    <div class="card card-right">
+      <div class="probootstrap-image probootstrap-animate"
+        style="background-image: url(https://media.istockphoto.com/id/1169673512/photo/ai-artificial-intelligence-conceptual-with-computer-interface-of-business-team-big-data.jpg?s=612x612&w=0&k=20&c=ab4Md48vKe8A3c1QnjFkO5-3E3yNdsDYXBfq0PK7_ZE=)">
+        <a href="https://media.istockphoto.com/id/1310920095/video/animation-of-digital-interface-showing-statistics-with-colleagues-in-office-wearing-face-masks.mp4?s=mp4-640x640-is&k=20&c=XmJ-6S_hHMDX1Aeq4maot9J2gRwXcPHRDuz5ucL5c18="
+          class="btn-video popup-vimeo" autoplay>
+          <i class="fas fa-play"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="webApp-container secs">
+    <div class="web-content">
+      <div class="content-slider">
+        <div class="content-slide active" id="slide-1">
+          <h1 class="heading">Web Application Security Testing</h1>
+          <p>Web application security testing is the process of simulating a hacker-style attack on your web app in
+            order to detect and analyze security vulnerabilities that an attacker could exploit. Web applications are
+            critical to business success and an appealing target for cybercriminals. Web application security testing is
+            the proactive identification of vulnerabilities in applications, such as those that could result in the loss
+            of sensitive user and financial information.</p>
+        </div>
+        <div class="content-slide" id="slide-2">
+          <h1 class="heading"> Mobile Application Security Testing</h1>
+          <p>The process of mobile application security testing involves analysing them for the necessary levels of
+            quality, functionality, compatibility, usability, and performance. It is a Linux based operating system
+            which was primarily designed for touchscreen mobile devices like tablets, smartphones. Mobile devices are no
+            longer just a means of wireless telephonic communication, rather mobile apps are a component of the wider
+            mobile ecosystem, which includes servers, data centers, network infrastructure, and mobile devices. VAPT for
+            mobile applications security testing is a crucial step in the overall evaluation process as it aids in app
+            security and reduces risks from fraud, malware infection, data leakage, and other security vulnerabilities.
+          </p>
+        </div>
+        <div class="content-slide" id="slide-3">
+          <h1 class="heading"> Network Penetration Testing</h1>
+          <p>A network vulnerability assessment and penetration test, or network VAPT, is a technical security
+            assessment that goes beyond the usual port scanning and vulnerability enumeration to pinpoint security risks
+            and their business ramifications on your network, whether it be wireless, internal, or external Network
+            Security testing is a crucial procedure that helps identify security flaws, network weaknesses, and threats
+            that could damage any organization's networks, website servers, and other applications if they are attacked
+            by hackers. It's a crucial step in determining how secure your network is by simulating attacks to gain
+            unauthorized access to the target network thereby assessing the current state network security.</p>
+        </div>
+        <div class="content-slide" id="slide-4">
+          <h1 class="heading"> Cloud Penetration Testing</h1>
+          <p>This assessment's goals are to evaluate your cloud-based environment's cyber security posture using
+            simulated attacks and to find and use weaknesses in your cloud security services. Our cloud security testing
+            methodology prioritize the most vulnerable areas of your cloud Application and recommend actionable
+            solutions. The results of the cloud Security Testing will be used by the organization, to enhance the
+            security feature of organization. The principal examples include Amazon Web Services(AWS), Microsoft Azure,
+            Google Cloud Platform, and others. A concept of shared accountability is necessary for cloud penetration
+            testing</p>
+        </div>
+        <div class="content-slide" id="slide-5">
+          <h1 class="heading"> IoT Security Testing</h1>
+          <p>The protection techniques used to secure network-based or internet-connected devices are referred to as
+            "IoT security." IoT security is the area of technology concerned with defending the networks and linked
+            devices in the internet of things (IoT). Internet connectivity is added to a network of connected computers,
+            mechanical and digital machinery, items.</p>
+        </div>
+        <div class="content-slide" id="slide-6">
+          <h1 class="heading"> Secure Code Review</h1>
+          <p>A secure code review is a specialized procedure that entails manually and/or automatically examining the
+            source code of an application to find weaknesses in the design, discover unsafe coding techniques, find
+            backdoors, injection flaws, cross-site scripting problems, weak cryptography, etc. The goal of secure code
+            review is to improve the code's security and uncover any flaws before they may cause any harm. Insecure code
+            that could potentially result in a vulnerability at a later stage of the software development process and
+            ultimately result in an insecure application is found through a procedure called secure code review.</p>
+        </div>
+        <div class="content-slide" id="slide-7">
+          <h1 class="heading"> Medical Device Security Testing</h1>
+          <p>Medical Device Penetration Testing identifies potential design weaknesses in the hardware, software, and
+            communication techniques that could compromise the device's security. It aids businesses in comprehending
+            the security implications of their devices and how to raise their level of security maturity. A component of
+            the security testing procedure for medical equipment involves looking at every possible software flaw.
+            Modern security testing methods make it possible to analyze the online safety of medical and healthcare
+            items with accuracy.</p>
+        </div>
+        <div class="content-slide" id="slide-8">
+          <h1 class="heading"> Threat Modeling</h1>
+          <p>Threat modeling pinpoints the attack vectors that threat agents could use and adopts the perspective of con
+            actors to understand how much damage they can cause. We look beyond the typical canned list of attacks to
+            think about new attacks or attacks that may not have otherwise been considered. Typically, threat modeling
+            is conducted during the design phase of a new application, although it can occur at other stages. The
+            primary objective is to help developers find vulnerabilities and understand the security implications of
+            their design, code, and configuration decisions.</p>
+        </div>
+        <div class="content-slide" id="slide-9">
+          <h1 class="heading">Overview: Root Cause Analysis</h1>
+          <p>Root cause analysis (RCA) stands out as a robust approach for pinpointing and resolving business issues by
+            identifying underlying inefficiencies or flaws and implementing corrective measures to prevent issue
+            recurrence. It is highly valuable across industries such as oil and gas, engineering, healthcare, aviation,
+            and IT operations, aiming to isolate seemingly minor mistakes that can lead to or worsen major issues.</p>
+        </div>
+      </div>
+      <!-- <div class="services-dots">
+        <span class="servicedot active" data-target="1" ></span>
+        <span class="servicedot" data-target="2"></span>
+        <span class="servicedot" data-target="3"></span>
+        <span class="servicedot" data-target="4"></span>
+        <span class="servicedot" data-target="5"></span>
+        <span class="servicedot" data-target="6"></span>
+        <span class="servicedot" data-target="7"></span>
+        <span class="servicedot" data-target="8"></span>
+        <span class="servicedot" data-target="9"></span>
+      </div> -->
+    </div>
+  </section>
+
+  <section class="hero-section secs">
+    <div class="overlay"></div>
+    <div class="contents">
+      <h1>Transforming digital vulnerability into fortified resilience</h1>
+      <div class="buttons">
+        <a href="#" class="btn btn-alt">Upcoming Events</a>
+        <div class="Featured-News-container">
+          <a id="featuredNewsBtn">Featured News</a>
+          <div id="newsDropdown" class="Featured-dropdown-content">
+              <div class="news-item">
+                  <div class="news-icon"><i class="fas fa-bolt"></i></div>
+                  <div class="news-content">
+                      <h3>Breaking: Desh Mein Naya Record!</h3>
+                      <p>Aaj subah 5 baje, hamari cricket team ne duniya ko hila diya...</p>
+                      <span class="news-time">10 minute pehle</span>
+                  </div>
+              </div>
+              <div class="news-item">
+                  <div class="news-icon"><i class="fas fa-film"></i></div>
+                  <div class="news-content">
+                      <h3>Filmi Duniya Mein Hungama</h3>
+                      <p>Superstar ne kiya bada khulasa, fans hue hairaan...</p>
+                      <span class="news-time">1 ghanta pehle</span>
+                  </div>
+              </div>
+              <div class="news-item">
+                  <div class="news-icon"><i class="fas fa-mobile-alt"></i></div>
+                  <div class="news-content">
+                      <h3>Tech Mein Naya Toofan</h3>
+                      <p>Naye smartphone ne market mein machaya dhamaal, keemat sun kar...</p>
+                      <span class="news-time">3 ghante pehle</span>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="services-container secs">
+    <div class="cards-slider">
+      <div class="service-card ">
+        <div class="image-container">
+          <img
+            src="https://media.istockphoto.com/id/1633495097/photo/laptop-server-room-and-technician-people-problem-solving-in-database-management-system.webp?b=1&s=170667a&w=0&k=20&c=Yg57uTzvQaUOzCtVwE5eL7WmfrwJfs2wrSAgPBEA01Q="
+            alt="Service 1">
+        </div>
+        <div class="text-box">
+          <h3>Application Security Testing</h3>
+          <p>Application security testing helps in the detection of application vulnerabilities, the
+            provision of comprehensive coverage for Web and mobile application infrastructure and
+            online services.</p>
+          <p><i class="fa fa-calendar"></i> July 9, 2017</p>
+        </div>
+      </div>
+
+      <div class="service-card">
+        <div class="image-container">
+          <img src="https://img.freepik.com/free-photo/standard-quality-control-collage-concept_23-2149595850.jpg"
+            alt="Service 2">
+        </div>
+        <div class="text-box">
+          <h3>Network Penetration Testing</h3>
+          <p>A method where Internal and external security assessments, as well as device-level
+            security rules, are used to detect and illustrate vulnerabilities and assess dangers
+            across a network.</p>
+          <p><i class="fa fa-calendar"></i> July 9, 2017</p>
+        </div>
+      </div>
+
+      <div class="service-card">
+        <div class="image-container">
+          <img
+            src="https://media.istockphoto.com/id/1498866893/photo/engineer-controlling-robot-arm-at-factory.webp?b=1&s=612x612&w=0&k=20&c=XOZJOlRpP4Y2QbB0k1Z0RkE9Wjvu0nannJ7F3CDW7pg="
+            alt="Service 3">
+        </div>
+        <div class="text-box">
+          <h3>Cloud Penetration Testing</h3>
+          <p>Cloud penetration testing is used to assess the strengths and weaknesses of a cloud
+            system in order to improve its overall security posture. Cloud penetration testing can
+            help identify risks, vulnerabilities, and gaps</p>
+          <p><i class="fa fa-calendar"></i> July 9, 2017</p>
+        </div>
+      </div>
+
+      <!-- Hidden cards (4, 5, 6) -->
+      <div class="service-card">
+        <div class="image-container">
+          <img
+            src="https://media.istockphoto.com/id/1291751221/photo/the-sales-department-scores-again.jpg?s=612x612&w=0&k=20&c=m5TBkQ4fpqEjX372FqL6pQ3I4oGLFdYQVtK-kgZc_Lw="
+            alt="Service 4">
+        </div>
+        <div class="text-box">
+          <h3>IOT Security Testing</h3>
+          <p>IoT devices are linked to the internet, they may be readily controlled. These gadgets can
+            be hacked and their functions disrupted. These assaults might render a gadget useless or
+            allow the attacker to take advantage of it.</p>
+          <p><i class="fa fa-calendar"></i> July 9, 2017</p>
+        </div>
+      </div>
+
+      <div class="service-card">
+        <div class="image-container">
+          <img src="https://blog.bernieportal.com/hubfs/Two%20Businesswomen%20Working%20On%20Computer%20In%20Office.jpg"
+            alt="Service 5">
+        </div>
+        <div class="text-box">
+          <h3>Medical Device Security Testing</h3>
+          <p>A thorough examination, inspection, and evaluation of any medical gadget to assure
+            appropriate operation.The gadgets must be protected against cyber attacks and dangers
+            because they rely largely on modern technology.</p>
+          <p><i class="fa fa-calendar"></i> July 9, 2017</p>
+        </div>
+      </div>
+
+      <div class="service-card">
+        <div class="image-container">
+          <img src="https://th.bing.com/th/id/OIP.-NBHWHEZk-knPR0qaoadbgHaE8?w=287&h=192&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+            alt="Service 6">
+        </div>
+        <div class="text-box">
+          <h3>Secure Code Review</h3>
+          <p>A specialized procedure that involves manually and/or automatically reviewing an
+            application's source code to find hidden vulnerabilities, design flaws, insecure coding
+            practices and other issues.</p>
+          <p><i class="fa fa-calendar"></i> July 9, 2017</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Dots for navigation -->
+    <div class="slider-navigation">
+      <span class="nav-dot active"></span>
+      <span class="nav-dot"></span>
+      <span class="nav-dot"></span>
+      <span class="nav-dot"></span>
+      <span class="nav-dot"></span>
+      <span class="nav-dot"></span>
+    </div>
+  </section>
+
+
+  <section class="supportive-team secs">
+    <div class="container team-container">
+      <div class=" text-center section-heading">
+        <h2>Meet Our Qualified Supportive Employers</h2>
+        <p class="lead">Sed a repudiandae impedit voluptate nam Deleniti dignissimos perspiciatis nostrum porro nesciunt
+        </p>
+      </div>
+      <div class="row box-row">
+        <div class="col-lg-4 team-member">
+          <figure class="media">
+            <img src="https://img.freepik.com/premium-photo/man-with-blue-tie-that-says-he-is-smiling_905510-40185.jpg"
+              alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive">
+          </figure>
+          <div class="box-text">
+            <h2 class="fw-normal">Chris Worth</h2>
+            <p>Operating Management</p>
+            <ul class="social-icons">
+              <li><a href="#"><i class="fab fa-twitter twitter"></i></a></li>
+              <li><a href="#"><i class="fab fa-facebook-f facebook"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram instagram"></i></a></li>
+              <li><a href="#"><i class="fab fa-google-plus-g google"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4 team-member">
+          <figure class="media">
+            <img src="https://th.bing.com/th/id/OIP.nX4ONjisvLxeHUXb05lt2AHaIL?w=580&h=640&rs=1&pid=ImgDetMain"
+              alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive">
+          </figure>
+          <div class="box-text">
+            <h2 class="fw-normal">Janet Morris</h2>
+            <p>Cyber Defence Department</p>
+            <ul class="social-icons">
+              <li><a href="#"><i class="fab fa-twitter twitter"></i></a></li>
+              <li><a href="#"><i class="fab fa-facebook-f facebook"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram instagram"></i></a></li>
+              <li><a href="#"><i class="fab fa-google-plus-g google"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4 team-member">
+          <figure class="media">
+            <img src="https://rltransports.biz/wp-content/uploads/2022/04/c1.jpg"
+              alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive">
+          </figure>
+          <div class="box-text">
+            <h2 class="fw-normal">Linda Reyez</h2>
+            <p>Development Team Head</p>
+            <ul class="social-icons">
+              <li><a href="#"><i class="fab fa-twitter twitter"></i></a></li>
+              <li><a href="#"><i class="fab fa-facebook-f facebook"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram instagram"></i></a></li>
+              <li><a href="#"><i class="fab fa-google-plus-g google"></i></a></li>
+            </ul>
+          </div>
+
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4 team-member">
+          <figure class="media">
+            <img src="https://media.bizj.us/view/img/12516890/katieperkins*375xx576-576-0-0.jpg"
+              alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive">
+          </figure>
+          <div class="box-text">
+            <h2 class="fw-normal">Jessa Sy</h2>
+            <p>Product Service</p>
+            <ul class="social-icons">
+              <li><a href="#"><i class="fab fa-twitter twitter"></i></a></li>
+              <li><a href="#"><i class="fab fa-facebook-f facebook"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram instagram"></i></a></li>
+              <li><a href="#"><i class="fab fa-google-plus-g google"></i></a></li>
+            </ul>
+          </div>
+        </div><!-- /.col-lg-4 -->
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonial-section secs">
+    <h1>Alumni Testimonial</h1>
+    <p>Sed a repudiandae impedit voluptate nam Delebit dignissimos perspiciatis nostrudum porro nesciunt.</p>
+    <div class="testimonial-container">
+      <div class="testimonial active">
+        <figure class="media" style="margin-bottom:20px ;">
+          <img src="https://th.bing.com/th/id/OIP.1CRkxZJaj2dVwuO0wWtPCwHaHW?pid=ImgDet&w=200&h=198&c=7&dpr=1.3"
+            alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive">
+        </figure>
+        <p>"Design must be functional and functionality must be translated into visual aesthetics, without any reliance
+          on gimmicks that have to be explained."</p>
+        <span class="name">- Mike Fisher</span>
+      </div>
+      <div class="testimonial">
+        <figure class="media" style="margin-bottom:20px ;">
+          <img src="https://th.bing.com/th/id/OIP.KtkD1gXZDEh_ukGdPPO5eQAAAA?w=300&h=300&rs=1&pid=ImgDetMain"
+            alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive">
+        </figure>
+        <p>"Creativity is just connecting things. When you ask creative people
+          how they did something, they feel a little guilty because they didn’t really do it, they just saw
+          something. It seemed obvious to them after a while."</p>
+        <span class="name">- Jane Doe</span>
+      </div>
+      <div class="testimonial">
+        <figure class="media" style="margin-bottom:20px ;">
+          <img
+            src="https://images.squarespace-cdn.com/content/v1/53e39a21e4b0dfd8498a10bf/1605285188304-CKX2NXKP0W6O4BNGGYCD/DEAV7078.jpg"
+            alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive">
+        </figure>
+        <p>"I think design would be better if designers were much more skeptical
+          about its applications. If you believe in the potency of your craft, where you choose to dole it out
+          is not something to take lightly."</p>
+        <span class="name">- John Smith</span>
+      </div>
+    </div>
+    <div class="dots">
+      <span class="dot active" data-index="0"></span>
+      <span class="dot" data-index="1"></span>
+      <span class="dot" data-index="2"></span>
+    </div>
+
+  </section>
+
+  <section class="secs">
+    <div class="head-features">
+      <h1>Why Choose Imperian Team</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam
+        soluta at.</p>
+    </div>
+    <div class="feature-container">
+      <div class="feature-card">
+        <div class="check-icon">&#10003;</div>
+        <div class="feature-content">
+          <h3 class="feature-title">Consectetur Adipisicing</h3>
+          <p class="feature-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lusto provident qui
+            tempore natus quos quibusdam soluta at.</p>
+        </div>
+      </div>
+      <div class="feature-card">
+        <div class="check-icon">&#10003;</div>
+        <div class="feature-content">
+          <h3 class="feature-title">Aliquid Dolorum Saepe</h3>
+          <p class="feature-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lusto provident qui
+            tempore natus quos quibusdam soluta at.</p>
+        </div>
+      </div>
+      <div class="feature-card">
+        <div class="check-icon">&#10003;</div>
+        <div class="feature-content">
+          <h3 class="feature-title">Eveniet Tempora Anisi</h3>
+          <p class="feature-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lusto provident qui
+            tempore natus quos quibusdam soluta at.</p>
+        </div>
+      </div>
+      <div class="feature-card">
+        <div class="check-icon">&#10003;</div>
+        <div class="feature-content">
+          <h3 class="feature-title">Laboriosam Quod Dignissimos</h3>
+          <p class="feature-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lusto provident qui
+            tempore natus quos quibusdam soluta at.</p>
+        </div>
+      </div>
+      <div class="feature-card">
+        <div class="check-icon">&#10003;</div>
+        <div class="feature-content">
+          <h3 class="feature-title">Asperiores Maxime Modi</h3>
+          <p class="feature-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lusto provident qui
+            tempore natus quos quibusdam soluta at.</p>
+        </div>
+      </div>
+      <div class="feature-card">
+        <div class="check-icon">&#10003;</div>
+        <div class="feature-content">
+          <h3 class="feature-title">Libero Maxime Molestiae</h3>
+          <p class="feature-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lusto provident qui
+            tempore natus quos quibusdam soluta at.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="cta-section">
+    <h2>Get your admission now!</h2>
+    <button class="cta-button">Enroll</button>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-container">
+      <!-- About Section -->
+      <div class="footer-section about">
+        <h3>About The School</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro provident suscipit natus a cupiditate ab minus
+          illum quaerat maxime inventore Ea consequatur consectetur hic provident dolor ab aliquam eveniet alias.</p>
+        <h4>Social</h4>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-dribbble"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <!-- Links Section -->
+      <div class="footer-section links">
+        <h3>Links</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Courses</a></li>
+          <li><a href="#">Teachers</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info Section -->
+      <div class="footer-section contact-info">
+        <h3>Contact Info</h3>
+        <p><i class="fas fa-map-marker-alt"></i> 198 West 21th Street, Suite 721 New York NY 10016</p>
+        <p><i class="fas fa-envelope"></i> info@domain.com</p>
+        <p><i class="fas fa-phone-alt"></i> +123 456 7890</p>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="Index.js"></script>
+
+</html>
